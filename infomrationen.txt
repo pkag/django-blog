@@ -1,2 +1,8 @@
 Daten in pythonanywhere aus git ziehen
 pa_autoconfigure_django.py --python=3.8 https://github.com/pkag/django-blog.git
+
+Static file sammeln:
+https://docs.djangoproject.com/en/dev/howto/static-files/
+
+$ python manage.py collectstatic
+
